@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class CsvParser {
+public class CsvParser implements ParserInterface {
 
     private final String filename;
 

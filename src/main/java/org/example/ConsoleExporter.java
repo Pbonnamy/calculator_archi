@@ -2,16 +2,16 @@ package org.example;
 
 import java.util.List;
 
-public class ConsolePrinter {
+public class ConsoleExporter implements ExporterInterface {
     private final Operand operand;
     private final List<CalculusStep> calculusSteps;
 
-    public ConsolePrinter(Operand operand, List<CalculusStep> calculusSteps) {
+    public ConsoleExporter(Operand operand, List<CalculusStep> calculusSteps) {
         this.operand = operand;
         this.calculusSteps = calculusSteps;
     }
 
-    public void print() {
+    public void export() {
         for (int i = 0; i < calculusSteps.size(); i++) {
             CalculusStep calculusStep = calculusSteps.get(i);
 

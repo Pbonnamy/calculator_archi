@@ -1,7 +1,6 @@
 package org.example;
 
 import junit.framework.TestCase;
-import org.junit.Test;
 
 import java.util.List;
 
