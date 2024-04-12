@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Objects;
-
 public class CalculusStep {
     private final int stepNumber;
     private final int result;
