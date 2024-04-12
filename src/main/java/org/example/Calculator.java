@@ -6,7 +6,6 @@ import java.util.List;
 public class Calculator {
     private final List<Integer> numbers;
     private final Operand operand;
-    private final List<CalculusStep> calculusSteps = new ArrayList<>();
 
     public Calculator(List<Integer> numbers, Operand operand) {
         this.numbers = numbers;
@@ -39,9 +38,5 @@ public class Calculator {
 
     public int multiply(int a, int b) {
         return a * b;
-    }
-
-    public List<CalculusStep> getSteps() {
-        return calculusSteps;
     }
 }
